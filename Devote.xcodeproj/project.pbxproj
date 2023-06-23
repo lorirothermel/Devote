@@ -13,6 +13,16 @@
 		DF1ABF602A43DB820019D17B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1ABF5F2A43DB820019D17B /* Preview Assets.xcassets */; };
 		DF1ABF622A43DB820019D17B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1ABF612A43DB820019D17B /* Persistence.swift */; };
 		DF1ABF652A43DB820019D17B /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF1ABF632A43DB820019D17B /* Devote.xcdatamodeld */; };
+		DF1ABF6E2A43DFD20019D17B /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1ABF6B2A43DFD10019D17B /* sound-ding.mp3 */; };
+		DF1ABF6F2A43DFD20019D17B /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1ABF6C2A43DFD10019D17B /* sound-tap.mp3 */; };
+		DF1ABF702A43DFD20019D17B /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF1ABF6D2A43DFD10019D17B /* sound-rise.mp3 */; };
+		DF3BB1892A43F3370096E215 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB1882A43F3370096E215 /* Constant.swift */; };
+		DF3BB18B2A44D64E0096E215 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB18A2A44D64E0096E215 /* HideKeyboardExtension.swift */; };
+		DF3BB18D2A4521740096E215 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB18C2A4521740096E215 /* BackgroundImageView.swift */; };
+		DF3BB18F2A45235B0096E215 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB18E2A45235B0096E215 /* NewTaskItemView.swift */; };
+		DF3BB1912A46353B0096E215 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB1902A46353B0096E215 /* BlankView.swift */; };
+		DF3BB1932A463FDC0096E215 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB1922A463FDC0096E215 /* ListRowItemView.swift */; };
+		DF3BB1952A46432B0096E215 /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BB1942A46432B0096E215 /* CheckboxStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +33,17 @@
 		DF1ABF5F2A43DB820019D17B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF1ABF612A43DB820019D17B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DF1ABF642A43DB820019D17B /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
+		DF1ABF6B2A43DFD10019D17B /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		DF1ABF6C2A43DFD10019D17B /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		DF1ABF6D2A43DFD10019D17B /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		DF1ABF782A43E14B0019D17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DF3BB1882A43F3370096E215 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		DF3BB18A2A44D64E0096E215 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		DF3BB18C2A4521740096E215 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		DF3BB18E2A45235B0096E215 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		DF3BB1902A46353B0096E215 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		DF3BB1922A463FDC0096E215 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		DF3BB1942A46432B0096E215 /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +76,15 @@
 		DF1ABF572A43DB810019D17B /* Devote */ = {
 			isa = PBXGroup;
 			children = (
+				DF1ABF782A43E14B0019D17B /* Info.plist */,
 				DF1ABF582A43DB810019D17B /* DevoteApp.swift */,
-				DF1ABF5A2A43DB810019D17B /* ContentView.swift */,
+				DF1ABF722A43DFFD0019D17B /* View */,
+				DF1ABF772A43E0AE0019D17B /* Model */,
+				DF1ABF732A43E0060019D17B /* Style */,
+				DF1ABF742A43E01E0019D17B /* Utility */,
+				DF1ABF752A43E02C0019D17B /* Extension */,
+				DF1ABF712A43DFED0019D17B /* Sound */,
 				DF1ABF5C2A43DB820019D17B /* Assets.xcassets */,
-				DF1ABF612A43DB820019D17B /* Persistence.swift */,
-				DF1ABF632A43DB820019D17B /* Devote.xcdatamodeld */,
 				DF1ABF5E2A43DB820019D17B /* Preview Content */,
 			);
 			path = Devote;
@@ -71,6 +96,61 @@
 				DF1ABF5F2A43DB820019D17B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF1ABF712A43DFED0019D17B /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				DF1ABF6B2A43DFD10019D17B /* sound-ding.mp3 */,
+				DF1ABF6D2A43DFD10019D17B /* sound-rise.mp3 */,
+				DF1ABF6C2A43DFD10019D17B /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		DF1ABF722A43DFFD0019D17B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF1ABF5A2A43DB810019D17B /* ContentView.swift */,
+				DF3BB18C2A4521740096E215 /* BackgroundImageView.swift */,
+				DF3BB18E2A45235B0096E215 /* NewTaskItemView.swift */,
+				DF3BB1902A46353B0096E215 /* BlankView.swift */,
+				DF3BB1922A463FDC0096E215 /* ListRowItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF1ABF732A43E0060019D17B /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BB1942A46432B0096E215 /* CheckboxStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		DF1ABF742A43E01E0019D17B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BB1882A43F3370096E215 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DF1ABF752A43E02C0019D17B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BB18A2A44D64E0096E215 /* HideKeyboardExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DF1ABF772A43E0AE0019D17B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF1ABF612A43DB820019D17B /* Persistence.swift */,
+				DF1ABF632A43DB820019D17B /* Devote.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +211,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1ABF702A43DFD20019D17B /* sound-rise.mp3 in Resources */,
 				DF1ABF602A43DB820019D17B /* Preview Assets.xcassets in Resources */,
 				DF1ABF5D2A43DB820019D17B /* Assets.xcassets in Resources */,
+				DF1ABF6F2A43DFD20019D17B /* sound-tap.mp3 in Resources */,
+				DF1ABF6E2A43DFD20019D17B /* sound-ding.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +227,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF1ABF622A43DB820019D17B /* Persistence.swift in Sources */,
+				DF3BB18D2A4521740096E215 /* BackgroundImageView.swift in Sources */,
 				DF1ABF5B2A43DB810019D17B /* ContentView.swift in Sources */,
+				DF3BB18B2A44D64E0096E215 /* HideKeyboardExtension.swift in Sources */,
+				DF3BB1912A46353B0096E215 /* BlankView.swift in Sources */,
+				DF3BB1892A43F3370096E215 /* Constant.swift in Sources */,
+				DF3BB1932A463FDC0096E215 /* ListRowItemView.swift in Sources */,
 				DF1ABF652A43DB820019D17B /* Devote.xcdatamodeld in Sources */,
 				DF1ABF592A43DB810019D17B /* DevoteApp.swift in Sources */,
+				DF3BB1952A46432B0096E215 /* CheckboxStyle.swift in Sources */,
+				DF3BB18F2A45235B0096E215 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +368,12 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,11 +398,12 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
