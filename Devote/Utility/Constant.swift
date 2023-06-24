@@ -21,9 +21,9 @@ let itemFormatter: DateFormatter = {
 
 // MARK: - UI
 var backgroundGradient: LinearGradient {
-    return LinearGradient(gradient: Gradient(colors: [.pink, .blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
+    return LinearGradient(gradient: Gradient(colors: [.red, .blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
 }
 
 // MARK: - UX
-
+let feedback = UINotificationFeedbackGenerator()
 
